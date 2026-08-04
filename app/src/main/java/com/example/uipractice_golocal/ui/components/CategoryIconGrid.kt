@@ -97,13 +97,13 @@ fun CategoryIcon(
 
 fun getDefaultCategories(): List<CategoryItem> {
     return listOf(
-        CategoryItem("Fashion", R.drawable.ic_fashion),
+        CategoryItem("Fashion", R.drawable.ic_kids),
         CategoryItem("Home & Garden", R.drawable.ic_category_home),
         CategoryItem("Kids & Toys", R.drawable.ic_kids),
         CategoryItem("Electronics", R.drawable.ic_electronics),
-        CategoryItem("Tools & Equipment", R.drawable.ic_tools),
-        CategoryItem("Beauty & Personal Care", R.drawable.ic_beauty),
-        CategoryItem("Gifts", R.drawable.ic_gifts),
-        CategoryItem("Occasions & Celebrations", R.drawable.ic_occasions)
+        CategoryItem("Tools & Equipment", R.drawable.ic_electronics),
+        CategoryItem("Beauty & Personal Care", R.drawable.ic_kids),
+        CategoryItem("Gifts", R.drawable.ic_mobile),
+        CategoryItem("Occasions & Celebrations", R.drawable.ic_message)
     )
 }

@@ -83,7 +83,7 @@ fun PhoneNumberTextField(
                 Spacer(modifier = Modifier.width(4.dp))
 
                 Icon(
-                    painter = painterResource(id = R.drawable.arrow_down),
+                    painter = painterResource(id = R.drawable.ic_next),
                     contentDescription = null,
                     modifier = Modifier.size(12.dp)
                 )

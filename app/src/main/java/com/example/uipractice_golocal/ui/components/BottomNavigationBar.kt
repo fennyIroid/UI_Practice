@@ -27,7 +27,7 @@ fun BottomNavigationBar(
     onItemSelected: (Int) -> Unit = {}
 ) {
     val items = listOf(
-        BottomNavItem("Home", R.drawable.ic_home),
+        BottomNavItem("Home", R.drawable.ic_video_play),
         BottomNavItem("Videos", R.drawable.ic_video_play), 
         BottomNavItem("Cart", R.drawable.ic_shopping_cart),
         BottomNavItem("Profile", R.drawable.ic_profile_circle)

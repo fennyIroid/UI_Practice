@@ -29,7 +29,7 @@ fun LoginScreen(
 
         // 🔹 Background
         Image(
-            painter = painterResource(id = R.drawable.bg_login),
+            painter = painterResource(id = R.drawable.after_image),
             contentDescription = null,
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
@@ -44,7 +44,7 @@ fun LoginScreen(
 
         // 🔹 Logo
         Image(
-            painter = painterResource(id = R.drawable.go_local_logo),
+            painter = painterResource(id = R.drawable.ic_kids),
             contentDescription = "App Logo",
             modifier = Modifier
                 .align(Alignment.TopCenter)

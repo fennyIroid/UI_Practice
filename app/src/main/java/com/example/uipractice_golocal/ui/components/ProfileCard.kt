@@ -169,7 +169,7 @@ fun ClickCollectActions() {
         listOf(
             R.drawable.ic_tshirt,
             R.drawable.ic_mobile,
-            R.drawable.ic_tool,
+            R.drawable.ic_next,
             R.drawable.ic_next
         ).forEach { icon ->
 

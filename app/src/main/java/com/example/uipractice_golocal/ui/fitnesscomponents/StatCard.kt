@@ -115,7 +115,7 @@ fun StatCardPreview() {
             valueText = "820",
             goalText = "/5000",
             progress = 0.16f,
-            icon = painterResource(id = R.drawable.ic_steps)
+            icon = painterResource(id = R.drawable.ic_calorie)
         ),
         modifier = Modifier
             .width(170.dp)

@@ -31,14 +31,14 @@ fun SplashScreen(onNext: () -> Unit = {}) {
         modifier = Modifier.fillMaxSize()
     ) {
         Image(
-            painter = painterResource(id = R.drawable.go_local_bg),
+            painter = painterResource(id = R.drawable.banner),
             contentDescription = null,
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
 
         Image(
-            painter = painterResource(id = R.drawable.go_local_logo),
+            painter = painterResource(id = R.drawable.ic_mobile),
             contentDescription = "App Logo",
             modifier = Modifier
                 .align(Alignment.Center)

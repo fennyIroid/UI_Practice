@@ -40,7 +40,7 @@ fun OtpScreen(
 
         // 🔹 Background
         Image(
-            painter = painterResource(R.drawable.bg_login),
+            painter = painterResource(R.drawable.banner),
             contentDescription = null,
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
@@ -55,7 +55,7 @@ fun OtpScreen(
 
         // 🔹 Logo
         Image(
-            painter = painterResource(R.drawable.go_local_logo),
+            painter = painterResource(R.drawable.ic_mobile),
             contentDescription = "App Logo",
             modifier = Modifier
                 .align(Alignment.TopCenter)

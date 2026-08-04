@@ -24,13 +24,13 @@ fun WelcomeScreen(
         modifier = Modifier.fillMaxSize()
     ) {
         Image(
-            painter = painterResource(R.drawable.go_local_bg),
+            painter = painterResource(R.drawable.banner),
             contentDescription = null,
             modifier = Modifier.fillMaxSize()
         )
 
         Image(
-            painter = painterResource(R.drawable.welcome_screen_arabic_text),
+            painter = painterResource(R.drawable.ic_message),
             contentDescription = "Arabic Text",
             modifier = Modifier
                 .align(Alignment.Center)
